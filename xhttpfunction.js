@@ -4,9 +4,10 @@
 
 import XMLHttpRequest from 'xhr2';
 class XhttpExecution {
-constructor(method,url){
+constructor(method,url,body){
 this.method=method;
-this.url=url;}
+this.url=url;
+this.body=body;}
 
 executeRequest(){
     var xhttp = new XMLHttpRequest();
@@ -15,7 +16,11 @@ executeRequest(){
             console.log(xhttp.responseText);
         }
     };
+    if(this.method=='POST'){
     xhttp.open(this.method,this.url,true);
+}
+    else{
+    xhttp.open(this.method,this.url,true);}
     xhttp.send();
 }
 

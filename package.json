@@ -1,27 +1,26 @@
 {
-  "name": "xhttp.com",
+  "name": "xhtp.com",
   "version": "1.0.0",
-  "description": "xhttp practice code",
+  "description": "git xhttps practice",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "npm start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Anilsaini907/JavascriptPractice.git"
+    "url": "git+https://github.com/Anilsaini907/javascriptTrainingCode.git"
   },
-  "keywords": [         
-    "Anisai"
+  "keywords": [
+    "anilsain"
   ],
-  "author": "Anil",
+  "author": "anilsaini",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Anilsaini907/JavascriptPractice/issues"
+    "url": "https://github.com/Anilsaini907/javascriptTrainingCode/issues"
   },
-  "homepage": "https://github.com/Anilsaini907/JavascriptPractice#readme",
+  "homepage": "https://github.com/Anilsaini907/javascriptTrainingCode#readme",
   "dependencies": {
-    "xhr2": "^0.2.0",
-    "xmlhttprequest": "^1.8.0"
+    "xhr2": "^0.2.0"
   }
 }
